@@ -16,7 +16,7 @@ You can install console via pip:
 
 ```bash
 
-pip install console
+pip install PyTermUtils
 
 ```
 
@@ -28,7 +28,7 @@ Here are some examples of how to use console package in your project:
 
 ```python
 
-from console import *
+from PyTermUtils import *
 
 # Print text in bright red and Highlight in bright green (16 colors)
 Console.Print16C("Bright Red", ConsoleColor.Bright_Red, 
