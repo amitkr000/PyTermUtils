@@ -1,12 +1,10 @@
 # PyTermUtils
 
----
 
 **PyTermUtils** is a Python library that allows you to easily print colored text to the console/terminal. It provides a simple way to enhance the visual appeal of terminal output by using different colors and styles.
 
 ## Features
 
----
 
 - Print text in various colors
 - Apply different text styles (bold, underline, etc.)
@@ -14,7 +12,6 @@
 
 ## Installation
 
----
 You can install console via pip:
 
 ```bash
@@ -25,7 +22,6 @@ pip install console
 
 ## Usage
 
----
 Here are some examples of how to use console package in your project:
 
 ### Basic Usage
@@ -48,7 +44,6 @@ Console.Printrgb("Red", (210, 0, 0), textmode=TextMode.Italic)
 
 ## Available Colors
 
----
 >[!NOTE]
 > Forground color -> Text color
 >
@@ -120,7 +115,6 @@ Where R, G, and B are the red, green, and blue color values (0-255).
 
 ## Available Attributes
 
----
 The following text styles are supported:
 
 - Bold
@@ -139,25 +133,18 @@ Here is a more comprehensive example demonstrating the use of different colors a
 
 ## Contributing
 
----
-
 Contributions are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
-
----
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
----
 If you have any questions or suggestions, feel free to open an issue on GitHub.
 
 ## References
 
-
----
 - [https://en.wikipedia.org/wiki/ANSI_escape_code#Fs_Escape_sequences]()
 - [https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797]()
 - [https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html]()
