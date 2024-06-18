@@ -1,0 +1,5 @@
+.venv/
+.idea/
+src/PyTermUtils/__pycache__/
+dist/
+src/PyTermUtils.egg-info/
